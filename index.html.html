@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pharmacy POS | Installation Center</title>
+  <link rel="icon" href="assets/pharmacy.ico" />
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #07111f, #0b1f36 55%, #0d2b45);
+      color: #eef6ff;
+      min-height: 100vh;
+    }
+    .wrap {
+      width: min(1180px, 92%);
+      margin: 0 auto;
+      padding: 42px 0 28px;
+    }
+    .hero {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .logo {
+      width: 110px;
+      height: 110px;
+      object-fit: contain;
+      border-radius: 22px;
+      background: #0e2036;
+      padding: 8px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.28);
+    }
+    h1 {
+      margin: 16px 0 8px;
+      font-size: 34px;
+      letter-spacing: .3px;
+    }
+    .sub {
+      margin: 0 auto;
+      color: #a9bed3;
+      font-size: 16px;
+      max-width: 760px;
+      line-height: 1.55;
+    }
+    .notice {
+      margin: 24px auto 30px;
+      max-width: 900px;
+      padding: 14px 18px;
+      border: 1px solid #214462;
+      background: rgba(15, 39, 62, .78);
+      border-radius: 14px;
+      color: #cfe7fa;
+      text-align: center;
+      font-size: 14px;
+    }
+    .section-title {
+      margin: 26px 0 15px;
+      font-size: 20px;
+      color: #ffffff;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    .card {
+      background: rgba(12, 29, 48, .95);
+      border: 1px solid #214462;
+      border-radius: 18px;
+      padding: 20px;
+      min-height: 170px;
+      box-shadow: 0 8px 24px rgba(0,0,0,.18);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+    .card p {
+      margin: 0;
+      color: #9fb5c8;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 18px;
+      text-decoration: none;
+      text-align: center;
+      background: #12b981;
+      color: white;
+      font-weight: 700;
+      padding: 11px 16px;
+      border-radius: 10px;
+      transition: .2s ease;
+    }
+    .btn:hover { transform: translateY(-1px); background: #0fa574; }
+    .btn.secondary { background: #2376d8; }
+    .btn.secondary:hover { background: #1d65ba; }
+    .footer {
+      margin-top: 34px;
+      border-top: 1px solid #214462;
+      padding-top: 20px;
+      text-align: center;
+      color: #93abc1;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .support {
+      color: #ffffff;
+      font-weight: 700;
+    }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 620px) {
+      .grid { grid-template-columns: 1fr; }
+      h1 { font-size: 28px; }
+      .wrap { width: 94%; padding-top: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <img class="logo" src="assets/logo.png" alt="Pharmacy POS Logo" />
+      <h1>Pharmacy POS Installation Center</h1>
+      <p class="sub">
+        Customer-side POS package, required drivers, registration help and installation files.
+        Private source code and license-generation tools are not stored here.
+      </p>
+    </section>
+
+    <div class="notice">
+      Recommended order: Download POS Package → Install required printer/barcode files →
+      Place files in D:\MOB → Registration → Desktop shortcut → Test bill print.
+    </div>
+
+    <h2 class="section-title">Main Software</h2>
+    <section class="grid">
+      <article class="card">
+        <div>
+          <h3>Pharmacy POS Customer Package</h3>
+          <p>Main customer package containing the compiled POS application and required customer-side files.</p>
+        </div>
+        <a class="btn" href="files/PharmacyPOS_Customer_Package.zip" download>Download Package</a>
+      </article>
+
+      <article class="card">
+        <div>
+          <h3>Installation Guide</h3>
+          <p>Step-by-step instructions for placing files in D:\MOB and preparing the customer PC.</p>
+        </div>
+        <a class="btn secondary" href="files/Install_Guide.txt" download>Download Guide</a>
+      </article>
+
+      <article class="card">
+        <div>
+          <h3>Registration Help</h3>
+          <p>Instructions for Machine ID, license key activation and registration support.</p>
+        </div>
+        <a class="btn secondary" href="files/Registration_Help.txt" download>Download Help</a>
+      </article>
+    </section>
+
+    <h2 class="section-title">Required Drivers & Support Files</h2>
+    <section class="grid">
+      <article class="card">
+        <div>
+          <h3>Printer Driver</h3>
+          <p>Thermal receipt printer driver for POS printing.</p>
+        </div>
+        <a class="btn secondary" href="files/Printer_Driver.exe" download>Download Driver</a>
+      </article>
+
+      <article class="card">
+        <div>
+          <h3>Barcode Fonts</h3>
+          <p>Barcode fonts used by compatible receipt and label printing.</p>
+        </div>
+        <a class="btn secondary" href="files/Barcode_Fonts.zip" download>Download Fonts</a>
+      </article>
+
+      <article class="card">
+        <div>
+          <h3>Matrics Retail DLL</h3>
+          <p>Supporting retail library if required by the printer/POS environment.</p>
+        </div>
+        <a class="btn secondary" href="files/matrics_Retail.dll" download>Download DLL</a>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <div class="support">Support / Registration: Aliyan Ali | 03166965457</div>
+      <div>Pharmacy POS Installation Center</div>
+    </footer>
+  </main>
+</body>
+</html>
