@@ -1,0 +1,18 @@
+FINAL CUSTOMER EXE REQUIRED
+
+After the final v5.1 source has been tested successfully on the development PC:
+
+1. Build the Windows EXE.
+2. Rename the final customer application EXACTLY:
+   PharmacyPOS.exe
+3. Put it in this folder:
+   files\PharmacyPOS.exe
+4. Upload the complete website folder.
+
+Do NOT upload:
+- main.py
+- source code
+- private License Admin
+- signing/private keys
+- build/ or dist/ development folders
+- PharmacyPOS.spec

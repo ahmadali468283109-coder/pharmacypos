@@ -1,0 +1,29 @@
+PHARMACY POS - CUSTOMER INSTALLATION GUIDE
+
+1. Download PharmacyPOS.exe from the Pharmacy POS Installation Center.
+2. Create these folders on the customer PC:
+   D:\MOB\App
+   D:\MOB\Assets
+   D:\MOB\Backup
+   D:\MOB\Config
+   D:\MOB\Database
+   D:\MOB\Drivers
+   D:\MOB\Reports
+   D:\MOB\Support
+   D:\MOB\Temp
+   D:\MOB\Updates
+3. Copy PharmacyPOS.exe to:
+   D:\MOB\App\PharmacyPOS.exe
+4. Copy logo.png, pharmacy.ico and receipt_logo.png to:
+   D:\MOB\Assets
+5. Open PharmacyPOS.exe.
+6. If the license is not active, open Registration and note the Machine ID.
+7. Contact support for a license key.
+8. Enter the license key and complete registration.
+9. Create a desktop shortcut for D:\MOB\App\PharmacyPOS.exe.
+10. Configure the receipt printer and perform one real test bill.
+
+Important:
+- The customer does NOT need Python or source code.
+- Private license-generation tools must never be copied to the customer PC.
+- Use the correct Windows printer driver for the customer's 58mm or 80mm thermal printer.

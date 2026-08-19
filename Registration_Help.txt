@@ -1,0 +1,14 @@
+PHARMACY POS - REGISTRATION HELP
+
+1. Open PharmacyPOS.exe.
+2. Click REGISTRATION.
+3. Copy the Machine ID exactly as shown.
+4. Send the Machine ID and pharmacy details to support.
+5. Support will generate the license key using the private License Admin tool.
+6. Paste the key into the Registration screen.
+7. Complete registration.
+8. Re-open the software and confirm that License: ACTIVE is displayed.
+
+Support:
+Wabwar
+03166965457
