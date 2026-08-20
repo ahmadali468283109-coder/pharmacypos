@@ -1,7 +1,16 @@
 PHARMACY POS SUPPORT
 
-Software: Pharmacy POS
-Support / Registration: Wabwar
-Phone: 03166965457
+Developer:
+Wabwar
 
-For installation, registration, backup, printer setup or software support, contact the number above.
+Phone:
+03166965457
+
+Support Includes:
+- Installation
+- Registration / License Activation
+- Receipt Printer Setup
+- Barcode Printer Setup
+- Backup / Restore Guidance
+
+POS Software by Wabwar | 03166965457
