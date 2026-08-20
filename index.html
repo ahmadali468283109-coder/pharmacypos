@@ -133,13 +133,13 @@
     Pharmacy POS Customer Installation Center
   </footer>
 </div>
-
+const r = await fetch('files/PharmacyPOS.exe', {method:'HEAD', cache:'no-store'});
 <script>
 (async function(){
   const button = document.getElementById('softwareDownload');
   const status = document.getElementById('softwareStatus');
   try{
-    const r = await fetch('files/PharmacyPOS.exe', {method:'HEAD', cache:'no-store'});
+    const r = await fetch('https://github.com/ahmadali468283109-coder/pharmacypos/releases/latest/download/PharmacyPOS.exe', {method:'HEAD', cache:'no-store'});
     if(r.ok){
       button.classList.remove('disabled');
       status.textContent='Software file ready';
