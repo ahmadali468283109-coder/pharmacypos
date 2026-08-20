@@ -1,0 +1,3 @@
+Pharmacy Name=Your Pharmacy Name
+Address=Your Address
+Phone=Your Phone Number
